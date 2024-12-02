@@ -1,15 +1,35 @@
 html {
-font-family: Roboto;
-background: #fff;
-
-
+    font-family: sans-serif;
+    background: #fff;
 }
 
-h1,h2 {
-text-align: left;
-content: "/A";
+h1 {
+    font-size: 80px;
+    text-align: left;
+    word-break: break-word;
+    word-spacing: 50000px;
+    margin-bottom: -50;
+}
+
+h2 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    word-break: break-word;
+    word-spacing: 50000px;
+
 }
 
 p {
-text-align: center;
+    text-align: center;
+}
+
+footer {
+    margin-bottom: 5px;
+}
+
+.footer {
+    font-size: 20px;
+    text-align: center;
 }
